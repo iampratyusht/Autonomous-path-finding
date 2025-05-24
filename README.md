@@ -3,10 +3,8 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
-- [Hardware Architecture](#hardware-architecture)
-- [Chassis Design](#chassis-design)
+- [Hardware Components](#hardware-components)
 - [Algorithm](#algorithm)
-- [Bill of Materials](#bill-of-materials)
 - [Installation & Usage](#installation--usage)
 - [Project Team](#project-team)
 - [References](#references)
@@ -39,14 +37,22 @@ This project presents a **maze-solving robot** inspired by the Micromouse compet
 - **Battery:** 2× `3.7V` `1250`mAh LiPo cells (in series)
 - **Wheels:** N20 motor rubber small wheels
 - **Castor Wheel:** N20 castor robot ball wheel
-- **Custom PCB:** Designed with `EasyEDA`, integrating all components
+- **Custom PCB:** Fabricated along with from scratch designing Arduino Nano on `EasyEDA`, integrating all components
+    ```
+    - With Scratch Arduino Nano - PCB\Gerber_Scratch_nano.zip
+    - Assembeled Arduino Nano - PCB\Gerber_to_assemble_nano.zip
+    ```
 - **Custom Chassis:** Designed with `Solidworks`, and with `PolyLactic Acid`
+    ```
+    CAD\Assem11 - Copy.SLDASM
+    ```
  
  ---
 
 ## Algorithm
 
 - **Flood-Fill Algorithm:** Optimized for speed and efficiency, with comparison to standard flood-fill for performance gains
+- **Wall following Algorithm:** Tried Basic wall following algorithm based on breadth first search.
 - **PID Control:** Utilizes motor encoder feedback for precise motor control and accurate positioning
 - **Wall Detection:** Real-time distance calculation and alignment using IR sensors
 - **EEPROM Storage:** Maze mapping data stored and updated in Arduino Nano’s EEPROM (1 KB)
@@ -57,11 +63,8 @@ This project presents a **maze-solving robot** inspired by the Micromouse compet
 
 ## Installation & Usage
 
-1. **PCB Fabrication:** Print the custom PCB using the provided schematics.
-2. **Chassis Assembly:** 3D print the chassis and assemble all hardware components.
 3. **Wiring:** Connect components as per the circuit diagram.
 4. **Programming:** Upload the C++ code to the Arduino Nano using Arduino IDE.
-5. **Operation:** Place the robot at the maze start point and power it on. The robot will autonomously solve the maze and trace the shortest path to the target.
 
 ---
 
