@@ -18,5 +18,5 @@
 - **Bottom**&#x20;
 <img src="bottom.png" alt="Chassis bottom View" width="320"/>  
 
-- **Side<**&#x20;
+- **Side**&#x20;
 <img src="side.png" alt="Chassis side View" width="320"/>
