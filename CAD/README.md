@@ -7,8 +7,16 @@
 - **Mounting:** Motor cases and brackets on lower layer; castor wheel at front; battery on lower layer for mass balance; PCB (`7` cm ×`7` cm) fixed on upper layer
 - **Sensors:** IR sensors vertically mounted on 3D-printed supports at front, left, and right, oriented per datasheet
 
-**Images:**  
+## **Images:**
+
+- **Front**&#x20; 
 <img src="front.png" alt="Chassis front View" width="320"/>
-<img src="top.png" alt="Chassis Top View" width="320"/>  
+
+- **Top**&#x20;
+<img src="Top.png" alt="Chassis Top View" width="320"/>  
+
+- **Bottom**&#x20;
 <img src="bottom.png" alt="Chassis bottom View" width="320"/>  
+
+- **Side<**&#x20;
 <img src="side.png" alt="Chassis side View" width="320"/>
