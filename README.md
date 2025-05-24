@@ -63,7 +63,7 @@ This project presents a **maze-solving robot** inspired by the Micromouse compet
 
 ## Installation & Usage
 
-3. **Wiring:** Connect components as per the circuit diagram.
+1. **Wiring:** Connect components as per the circuit diagram.
 4. **Programming:** Upload the C++ code to the Arduino Nano using Arduino IDE.
 
 ---
