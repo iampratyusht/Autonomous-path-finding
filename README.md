@@ -71,10 +71,10 @@ This project presents a **maze-solving robot** inspired by the Micromouse compet
 ## Project Team
 
 - **Prof. Soumya Bagchi** – Assistant Professor, Department of Physics, IIT ISM Dhanbad
-- **Pratyush Tripathi** – Electrical Engineering
+- **Palak Kumari** – Computer Science & Engineering
 - **Prasoon Krishna Yadav** – Electronics and Communication Engineering
 - **Prayag Asrani** – Mechanical Engineering
-- **Palak Kumari** – Computer Science & Engineering
+- **Pratyush Tripathi** – Electrical Engineering
 - **Abhirup Choudhury** – Mathematics and Computing
 
 
