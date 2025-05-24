@@ -21,9 +21,8 @@ This project presents a **maze-solving robot** inspired by the Micromouse compet
 
 ## Features
 
-- **Autonomous maze solving** using optimized flood-fill algorithm
-- **Shortest path tracing** from start to target
-- **Real-time wall detection** with three GP2Y0A41SK0F infrared sensors
+- **Shortest path tracing** using optimized `flood-fill` algorithm and from start to target.
+- **Real-time wall detection** with three `GP2Y0A41SK0F` infrared sensors.
 - **Precise movement control** using encoder motors and PID control
 - **Custom double-layer PCB** designed for compact integration
 - **EEPROM-based map storage** for persistent maze data
@@ -31,40 +30,24 @@ This project presents a **maze-solving robot** inspired by the Micromouse compet
 
 ---
 
-## Hardware Architecture
+## Hardware Components
 
-**Main Components:**
-- **Microcontroller:** Arduino Nano (ATmega328)
-- **Sensors:** 3× GP2Y0A41SK0F sharp infrared sensors
-- **Motors:** 2× N20 6V 500 RPM Encoder Motors
-- **Motor Driver:** TA6586 Dual H-Bridge
-- **Battery:** 2× 3.7V 1250mAh LiPo cells (in series)
+- **Microcontroller:** Arduino Nano (`ATmega328`)
+- **Sensors:** 3× `GP2Y0A41SK0F` sharp infrared sensors
+- **Motors:** 2× `N20` `6`V `500` RPM Encoder Motors
+- **Motor Driver:** `TA6586` Dual H-Bridge
+- **Battery:** 2× `3.7V` `1250`mAh LiPo cells (in series)
 - **Wheels:** N20 motor rubber small wheels
 - **Castor Wheel:** N20 castor robot ball wheel
-- **Custom PCB:** Designed with EasyEDA, integrating all components
-
-**Key Circuit Features:**
-- Compact, breadboard-friendly design
-- Optimized for minimal wiring and reliable connections
-- Schematic integration of Arduino Nano and external motor driver
-
----
-
-## Chassis Design
-
-- **Material:** 3D-printed Poly Lactic Acid (PLA)
-- **Dimensions:** 7.5 cm × 7.5 cm (top plane), height 5.5 cm
-- **Structure:** Two-layer square chassis for optimal mass balance
-- **Component Placement:** Motors and battery sandwiched between layers; PCB mounted on top
-- **Sensor Mounts:** 3D-printed vertical supports for IR sensors at front, left, and right
-- **CAD Software:** Designed using SolidWorks
-
----
+- **Custom PCB:** Designed with `EasyEDA`, integrating all components
+- **Custom Chassis:** Designed with `Solidworks`, and with `PolyLactic Acid`
+ 
+ ---
 
 ## Algorithm
 
 - **Flood-Fill Algorithm:** Optimized for speed and efficiency, with comparison to standard flood-fill for performance gains
-- **PID Control:** Utilizes encoder feedback for precise motor control and accurate positioning
+- **PID Control:** Utilizes motor encoder feedback for precise motor control and accurate positioning
 - **Wall Detection:** Real-time distance calculation and alignment using IR sensors
 - **EEPROM Storage:** Maze mapping data stored and updated in Arduino Nano’s EEPROM (1 KB)
 - **Reset Capability:** EEPROM data can be reset for new maze runs
@@ -85,11 +68,12 @@ This project presents a **maze-solving robot** inspired by the Micromouse compet
 ## Project Team
 
 - **Prof. Soumya Bagchi** – Assistant Professor, Department of Physics, IIT ISM Dhanbad
+- **Pratyush Tripathi** – Electrical Engineering
+- **Prasoon Krishna Yadav** – Electronics and Communication Engineering
 - **Prayag Asrani** – Mechanical Engineering
 - **Palak Kumari** – Computer Science & Engineering
-- **Prasoon Krishna Yadav** – Electronics and Communication Engineering
-- **Abhirup Choudhury** – Mathematics
-- **Pratyush Tripathi** – Electrical Engineering
+- **Abhirup Choudhury** – Mathematics and Computing
+
 
 ---
 
