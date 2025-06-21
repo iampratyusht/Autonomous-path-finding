@@ -25,6 +25,7 @@ This project presents a **maze-solving robot** inspired by the Micromouse compet
 - **Custom double-layer PCB** designed for compact integration
 - **EEPROM-based map storage** for persistent maze data
 - **3D-printed PLA chassis** for lightweight and robust structure
+- **Dynamic path replanning** for real-time recovery from new obstacles or sensor inconsistencies
 
 ---
 
