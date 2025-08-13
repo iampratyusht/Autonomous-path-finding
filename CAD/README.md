@@ -10,13 +10,13 @@
 ## **Images:**
 
 - **Front**&#x20; 
-<img src="front.png" alt="Chassis front View" width="320"/>
+<img src="front.png" alt="Chassis front View" width="320"/> <img src="Top.png" alt="Chassis Top View" width="320"/> <img src="bottom.png" alt="Chassis bottom View" width="320"/>  <img src="side.png" alt="Chassis side View" width="320"/>
 
 - **Top**&#x20;
-<img src="Top.png" alt="Chassis Top View" width="320"/>  
+
 
 - **Bottom**&#x20;
-<img src="bottom.png" alt="Chassis bottom View" width="320"/>  
+
 
 - **Side**&#x20;
-<img src="side.png" alt="Chassis side View" width="320"/>
+
